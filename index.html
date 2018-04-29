@@ -10,7 +10,7 @@ element.textContent = 'Hello World'
 element.className = 'container'
 rootElement.appendChild(element)
 */
-const element = React.createElement('div', {className: 'container'}, 'Hello World')
-ReactDOM.render(element, rootElement)
+const element = React.createElement('div', {className: 'container', children: 'Hello World'})
+  ReactDOM.render(element, rootElement)
 </script>
 
